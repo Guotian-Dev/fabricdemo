@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>net.zwj</groupId>
-	<artifactId>dubbodemo</artifactId>
+	<artifactId>fabricdemo</artifactId>
 	<version>0.1</version>
 	<packaging>jar</packaging>
 
-	<name>dubbodemo</name>
-	<description>Demo project for Spring Boot and elasticsearch</description>
+	<name>fabricdemo</name>
+	<description>Demo project for fabric java-sdk 1.0.x </description>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -23,12 +23,6 @@
             <artifactId>fabric-sdk-java</artifactId>
             <version>1.0.1</version>
          </dependency>
-         
-        <dependency>
-	        <groupId>org.projectlombok</groupId>
-	        <artifactId>lombok</artifactId>
-	        <version>1.16.20</version>
-    	</dependency>
 		
 		<dependency> 
 			<groupId>junit</groupId>
